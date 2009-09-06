@@ -19,14 +19,18 @@ no_index:
   directory:
     - inc
     - t
+    - xt
 recommends:
   JSON::XS: 0
 requires:
   Carp: 0
   Class::Accessor::Fast: 0
+  IO::Select: 0
   IO::Socket::INET: 0
+  IO::Socket::UNIX: 0
   JSON: 0
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+  repository: git://github.com/typester/jsonrpc-transport-tcp-perl.git
+version: 0.03
