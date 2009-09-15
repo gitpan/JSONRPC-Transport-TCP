@@ -5,7 +5,7 @@ author:
 build_requires:
   ExtUtils::MakeMaker: 6.42
   Test::More: 0
-  Test::TCP: 0
+  Test::TCP: 0.08
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
@@ -33,4 +33,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/typester/jsonrpc-transport-tcp-perl.git
-version: 0.03
+version: 0.04
